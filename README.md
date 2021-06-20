@@ -1,3 +1,25 @@
+Added sound render for www.espboy.com project
+
+by Shiru
+
+shiru@mail.ru
+
+https://www.patreon.com/shiru8bit
+
+
+ESP8266Audio/
+- AudioOutputESPboy.h
+- AudioOutputESPboy.cpp
+
+examples/
+- ESPBoy_PlayMODFromPROGMEMToDAC
+- ESPBoy_PlayWAVFromPROGMEM
+
+For sound output D3(GPIO18) speaker pin
+
+---------------
+
+
 # ESP8266Audio - supports ESP8266 & ESP32 & Raspberry Pi RP2040[![Gitter](https://badges.gitter.im/ESP8266Audio/community.svg)](https://gitter.im/ESP8266Audio/community?utm_source=badge&utm_medium=badge&utm_campaign=pr-badge) 
 Arduino library for parsing and decoding MOD, WAV, MP3, FLAC, MIDI, AAC, and RTTL files and playing them on an I2S DAC or even using a software-simulated delta-sigma DAC with dynamic 32x-128x oversampling.
 
